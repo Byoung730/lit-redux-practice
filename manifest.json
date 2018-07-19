@@ -1,13 +1,15 @@
 {
-  "description": "Experiments with lit and redux",
+  "display": "fullscreen",
+  "version": "1.0",
   "manifest_version": 1,
+
+  "description": "Experiments with lit and redux",
+  "start_url": "index.html",
   "name": "lit-redux",
   "short_name": "lit-redux",
-  "version": "1.0",
-  "start_url": "index.html",
-  "display": "fullscreen",
   "background_color": "#ffffff",
   "theme_color":"#ffffff",
+  
   "icons": [{
     "src": "./manifest/icon-48x48.png",
     "sizes": "48x48",

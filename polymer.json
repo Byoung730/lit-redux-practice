@@ -1,11 +1,11 @@
 {
-  "npm": true,
-  "moduleResolution": "node",
   "shell": "src/lit-redux.js",
   "entrypoint": "index.html",
+
+  "npm": true,
+  "moduleResolution": "node",
   "sources": ["src/**", "manifest/**", "manifest.json", "package.json"],
   "extraDependencies": [
-    
   ],
   "builds": [{
     "name": "default",
