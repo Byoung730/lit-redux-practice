@@ -4,10 +4,10 @@ Boilerplate for a lit-html/redux app, deploying on Firebase.
 
 At the time of writing (Jul 19 2018) was scoring 100% on all Lighthouse audits and was working fine on most recent Chrome, Safari and Firefox. Others untested.
 
-* [Clone](#clonethisrepo)
-* [Serve](#servefordevelopment)
-* [Setup](#setupnewapp)
-* [Build](#buildforprodandservelocally)
+* [Clone](#clone-this-repo)
+* [Serve](#serve-for-development)
+* [Setup](#set-up-new-app)
+* [Build](#build-for-prod-and-serve-locally)
 * [Deploy](#deploy)
 
 ## Clone this repo
