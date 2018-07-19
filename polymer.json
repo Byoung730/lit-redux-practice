@@ -1,0 +1,16 @@
+{
+  "npm": true,
+  "moduleResolution": "node",
+  "shell": "src/lit-redux.js",
+  "entrypoint": "index.html",
+  "sources": ["src/**", "manifest/**", "manifest.json", "package.json"],
+  "extraDependencies": [
+    
+  ],
+  "builds": [{
+    "name": "default",
+    "preset": "es6-unbundled",
+    "addServiceWorker": true,
+    "addPushManifest": true
+  }]
+}

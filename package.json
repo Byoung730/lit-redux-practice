@@ -1,0 +1,15 @@
+{
+  "name": "lit-redux",
+  "version": "1.0.0",
+  "description": "Experiments with lit-html and redux",
+  "main": "lit-redux.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "katejeffreys",
+  "license": "BSD-3-CLAUSE",
+  "dependencies": {
+    "lit-html": "^0.10.2",
+    "redux": "^4.0.0"
+  }
+}
