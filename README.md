@@ -2,6 +2,8 @@
 
 Boilerplate for a lit-html/redux app, deploying on Firebase.
 
+**New:** See the [lit-element branch](https://github.com/katejeffreys/lit-redux/tree/lit-element) for an equivalent for lit-element.**
+
 At the time of writing (Jul 19 2018) was scoring 100% on all Lighthouse audits and was working fine on most recent Chrome, Safari and Firefox. Others untested.
 
 * [Clone](#clone-this-repo)
