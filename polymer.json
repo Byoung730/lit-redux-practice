@@ -6,6 +6,7 @@
   "moduleResolution": "node",
   "sources": ["src/**", "manifest/**", "manifest.json", "package.json"],
   "extraDependencies": [
+    "robots.txt"
   ],
   "builds": [{
     "name": "default",
