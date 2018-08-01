@@ -3,7 +3,7 @@
   "version": "1.0",
   "manifest_version": 1,
 
-  "description": "Experiments with lit and redux",
+  "description": "Hello World with lit-element and Redux",
   "start_url": "index.html",
   "name": "lit-redux",
   "short_name": "lit-redux",

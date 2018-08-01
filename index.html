@@ -6,18 +6,18 @@
     window.process = { env: { NODE_ENV: 'production' } };
   </script>
   
-  <!-- Register service worker if supported.
+  <!-- Register service worker if supported. -->
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/service-worker.js');
     }
-  </script> -->
+  </script>
 
   <!-- Change stuff here for your app -->
   <script type="module" src="src/lit-redux.js" defer></script>
-  <meta name="description" content="Experiments with lit-html and redux">
+  <meta name="description" content="Hello World with lit-html and Redux">
   <meta name="theme-color" content="#ffffff">
-  <title>Experiments with lit and redux</title>
+  <title>Hello World with lit-html and Redux</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="manifest" href="./manifest.json">

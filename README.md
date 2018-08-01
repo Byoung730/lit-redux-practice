@@ -1,10 +1,10 @@
 # lit-redux
 
-Boilerplate for a lit-html/redux app, deploying on Firebase.
+Hello World for a lit-html app with Redux. Deploying on Firebase.
 
-At the time of writing (Jul 19 2018) was scoring 100% on all Lighthouse audits and was working fine on most recent Chrome, Safari and Firefox. Others untested.
+At the time of writing (August 1 2018) it was scoring 100% on all Lighthouse audits and was working fine on most recent Chrome, Safari and Firefox. Others untested.
 
-**New:** See the [lit-element branch](https://github.com/katejeffreys/lit-redux/tree/lit-element) for an equivalent for lit-element. That one is taking a 5% perf hit, it's at 95%. I think I need to change how webcomponents polyfills are loaded.
+See also [lit-element-redux](https://github.com/katejeffreys/lit-element-redux) for a more extensive example using lit-element.
 
 * [Clone](#clone-this-repo)
 * [Serve](#serve-for-development)
@@ -34,7 +34,7 @@ polymer serve
 ```html
 <!-- Change stuff here for your app -->
 <script type="module" src="src/lit-redux.js" defer></script>
-<meta name="description" content="Experiments with lit-html and redux">
+<meta name="description" content="Hello World with lit-element and Redux">
 <meta name="theme-color" content="#ffffff">
 <title>Experiments with lit and redux</title>
 ```
@@ -42,7 +42,8 @@ polymer serve
 2. In index.html, uncomment the service worker rego code:
 
 ```html
-<!-- Register service worker if supported.
+<!-- Register service worker if supported. -->
+<!--
 <script>
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/service-worker.js');
@@ -53,7 +54,7 @@ polymer serve
 3. In manifest.json, update description, etc:
 
 ```json
-"description": "Experiments with lit and redux",
+"description": "Hello World with lit-element and Redux",
 "start_url": "index.html",
 "name": "lit-redux",
 "short_name": "lit-redux",

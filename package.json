@@ -1,7 +1,7 @@
 {
   "name": "lit-redux",
   "version": "1.0.0",
-  "description": "Experiments with lit-html and redux",
+  "description": "Hello World with lit-html and Redux",
   "main": "lit-redux.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
