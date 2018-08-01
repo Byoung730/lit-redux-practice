@@ -2,7 +2,7 @@
 
 Boilerplate for a lit-html/redux app, deploying on Firebase.
 
-**New:** See the [lit-element branch](https://github.com/katejeffreys/lit-redux/tree/lit-element) for an equivalent for lit-element.**
+**New:** See the [lit-element branch](https://github.com/katejeffreys/lit-redux/tree/lit-element) for an equivalent for lit-element. That one is taking a 5% perf hit, it's at 95%. I think I need to change how webcomponents polyfills are loaded**
 
 At the time of writing (Jul 19 2018) was scoring 100% on all Lighthouse audits and was working fine on most recent Chrome, Safari and Firefox. Others untested.
 
