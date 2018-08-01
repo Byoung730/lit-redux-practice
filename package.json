@@ -2,12 +2,13 @@
   "name": "lit-redux",
   "version": "1.0.0",
   "description": "Hello World with lit-html and Redux",
+  "repository": "https://github.com/katejeffreys/lit-redux.git",
   "main": "lit-redux.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "katejeffreys",
-  "license": "BSD-3-CLAUSE",
+  "license": "BSD-3-Clause",
   "dependencies": {
     "lit-html": "^0.10.2",
     "redux": "^4.0.0"
