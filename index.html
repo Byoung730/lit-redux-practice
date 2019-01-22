@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
   <!-- Small hack for Redux https://github.com/reduxjs/redux/issues/2907 -->
   <script>
     window.process = { env: { NODE_ENV: 'production' } };
   </script>
-  
+
   <!-- Register service worker if supported. -->
-  <!--
+
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/service-worker.js');
     }
   </script>
-  -->
+
 
   <!-- Change stuff here for your app -->
   <script type="module" src="src/lit-redux.js" defer></script>
@@ -27,8 +28,9 @@
   <link rel="shortcut icon" href="/manifest/favicon.ico">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta charset="UTF-8">
-  
+
 </head>
+
 <body>
   <p>loading</p>
 </body>
