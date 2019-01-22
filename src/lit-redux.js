@@ -11,6 +11,9 @@ import {
 import {
   doThing
 } from './actions.js';
+import style from "./styles.js"
+import NiceGreeting from './src/components/NiceGreeting.js'
+
 
 /**
  * Accept some data and return a lit-html TemplateResult.
@@ -30,7 +33,17 @@ let state = store.getState();
 console.log(state);
 
 // Dispatch an action to the store
-store.dispatch(doThing('Hello World!'));
+store.dispatch(doThing(
+  render() {
+    html `
+      <style>
+        ${style}
+      </style>
+
+      <nice-greeting />
+    `
+  }
+));
 
 // Retrieve updated state data from the store 
 let data = store.getState().data;
